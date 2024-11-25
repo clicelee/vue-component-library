@@ -117,6 +117,7 @@ export default {
   padding: 8px 36px 8px 12px; /* canvas 아이콘 공간 확보 */
   font-size: 18px;
   background-color: #fff;
+  outline: none;
 }
 
 .dropdown-icon {
