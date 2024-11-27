@@ -6,7 +6,7 @@
 ## OptionFilter
 #### 1. Import the component
 ```js
-import OptionFilter from '@components/OptionFilter.vue';
+import OptionFilter from '@components/OptionFilter.vue';// someday.. it will be at "clice-vue-component"; 
 ```
 
 #### 2.declare the component
