@@ -12,7 +12,7 @@ import OptionFilter from '@components/OptionFilter.vue';
 #### 2.declare the component
 ```js
 export default {
-  name: 'PaymentManagement',
+  name: 'StateManagement',
   components: {
     OptionFilter,
   },
@@ -35,13 +35,13 @@ data() {
 
 
 ```js
-    const selectedPayment = ref('');
+    const selectedState = ref('');
 
 ```
 #### 3. Use it
 
 ```js
- <OptionFilter label="결제방법" :options="selectOptions" v-model="selectedState" />
+ <OptionFilter label="거주 지역" :options="selectOptions" v-model="selectedState" />
 
 ```
 
